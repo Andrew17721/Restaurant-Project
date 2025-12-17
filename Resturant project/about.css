@@ -1,0 +1,132 @@
+/* Reset some default styles */
+html, body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+/* Style the about container */
+.w3-container {
+    background-color: #f44336; /* Red background color */
+    color: #ffffff; /* White text color */
+    padding: 64px;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.w3-content {
+    max-width: 800px; /* Limit width of content */
+    margin: 0 auto; /* Center the content */
+}
+
+.w3-jumbo {
+    margin-bottom: 64px;
+}
+
+/* Style the chef image */
+.w3-circle {
+    border-radius: 50%;
+}
+
+/* Style the restaurant image */
+.w3-margin-top {
+    margin-top: 16px;
+}
+
+.w3-margin-bottom {
+    margin-bottom: 16px;
+}
+
+/* Style the opening hours */
+.w3-row {
+    display: flex;
+    justify-content: center; /* Center the columns horizontally */
+}
+
+.w3-col {
+    flex: 1;
+    padding: 0 16px;
+    text-align: center; /* Center the content within each column */
+}
+
+/* Optionally, you can add additional styling to improve visibility or formatting */
+.w3-col p {
+    margin-bottom: 8px; /* Add some spacing between each opening hour entry */
+    font-size: 20px;
+}
+
+.child1{
+    background-color: #f44336;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+.n1{
+    position: relative;
+    left: 80px;
+    top: 20px;
+    color: rgb(243, 125, 14);
+    font-size: 30px;
+    font-weight:800;
+    font-family:'Times New Roman', Times, serif;
+}
+.pal{
+    color: white;
+}
+.nav{
+    margin-left: 380px;
+    position: relative;
+    top: 20px;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.a{
+    color: rgb(255, 255, 255);
+}
+.b{
+    position: relative;
+    left: 30px; 
+    color: white;
+}
+.c{
+    position: relative;
+    left: 60px;
+    color: white;
+}
+.d{
+    position: relative;
+    left: 90px;
+    color: white;
+}
+.a:hover{
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+.b:hover{
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+.c:hover{
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+.d:hover{
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+
+/* Responsive styling for small screens */
+@media screen and (max-width: 600px) {
+    .w3-col {
+        flex: 100%;
+        padding: 0;
+    }
+}

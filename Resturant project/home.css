@@ -1,0 +1,195 @@
+body {
+    background-image: url(restaurant-S10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(15, auto);
+    display: grid;
+    height: 690px;
+}
+
+.child1 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+.n1 {
+    position: relative;
+    left: 80px;
+    top: 20px;
+    color: rgb(243, 125, 14);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pal {
+    color: white;
+}
+
+.nav {
+    margin-left: 380px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a {
+    color: white;
+}
+
+.b {
+    position: relative;
+    left: 30px;
+    color: white;
+}
+
+.c {
+    position: relative;
+    left: 60px;
+    color: white;
+}
+
+.d {
+    position: relative;
+    left: 90px;
+    color: white;
+}
+
+.a:hover {
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+
+.b:hover {
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+
+.c:hover {
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+
+.d:hover {
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+
+/*//////////////////////////////////////////*/
+.social {
+    margin-left: 370px;
+    position: relative;
+    top: 20px;
+}
+
+.res {
+    color: white;
+    background-color: rgb(243, 125, 14);
+    font-size: small;
+    padding: 10px;
+}
+
+.res:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+.bb {
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+.dd {
+    position: relative;
+    left: 30px;
+    color: white;
+}
+
+.ee {
+    position: relative;
+    left: 40px;
+    color: white;
+}
+
+.bb:hover {
+    font-size: 30px;
+    color: rgb(24, 119, 242);
+}
+
+.dd:hover {
+    font-size: 30px;
+    color: rgb(195, 42, 163);
+}
+
+.ee:hover {
+    font-size: 30px;
+    color: rgb(29, 161, 242);
+}
+
+/*//////////////////////////////////////////*/
+.child2 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 8;
+    grid-row-end: 10;
+    text-align: center;
+}
+
+.name {
+    color: white;
+}
+
+.welcome {
+    font-style: italic;
+    font-family: serif;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+.un {
+    font-size: 60px;
+}
+
+.see {
+    margin-top: 70px;
+}
+
+.seeMenu {
+    color: white;
+    background-color: rgb(243, 125, 14);
+    padding: 20px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.seeMenu:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+.about {
+    color: white;
+    background-color: rgb(243, 125, 14);
+    padding: 20px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+}
+
+.about:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.527);
+}

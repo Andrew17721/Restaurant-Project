@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYKOYGalAfu73iKtYa1h-IDYXpi2O-QU8jfg&usqp=CAU);
+    background-size: cover;
+    height: 100vh;
+}
+.content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.n1 {
+    position: relative;
+    left: 80px;
+    top: 20px;
+    color: rgb(243, 125, 14);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pal {
+    color: white;
+}
+.nav {
+    margin-left: 380px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a {
+    color: white;
+}
+
+.b {
+    position: relative;
+    left: 30px;
+    color: white;
+}
+
+.c {
+    position: relative;
+    left: 60px;
+    color: white;
+}
+
+.d {
+    position: relative;
+    left: 90px;
+    color: white;
+}
+
+.a:hover {
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+
+.b:hover {
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+
+.c:hover {
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+
+.d:hover {
+    color: rgb(243, 125, 14);
+    padding: 10px;
+}
+
+.social {
+    margin-left: 370px;
+    position: relative;
+    top: 20px;
+}
+
+.res {
+    color: white;
+    background-color: rgb(243, 125, 14);
+    font-size: small;
+    padding: 10px;
+}
+
+.res:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+.bb {
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+.dd {
+    position: relative;
+    left: 30px;
+    color: white;
+}
+
+.ee {
+    position: relative;
+    left: 40px;
+    color: white;
+}
+
+.bb:hover {
+    font-size: 30px;
+    color: rgb(24, 119, 242);
+}
+
+.dd:hover {
+    font-size: 30px;
+    color: rgb(195, 42, 163);
+}
+
+.ee:hover {
+    font-size: 30px;
+    color: rgb(29, 161, 242);
+}
+
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

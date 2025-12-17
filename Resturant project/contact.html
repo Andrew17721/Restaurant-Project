@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Form</title>
+    <script src="https://kit.fontawesome.com/24be5c99fc.js" crossorigin="anonymous"></script>
+    <script>function myFunction() { alert("thanks for contacting us!"); }</script>
+</head>
+
+<body>
+
+    <div class="child1">
+        <span class="n1">The <span class="pal">Palestine</span></span>
+        <span class="nav">
+            <a href="index.html" class="a">Home</a>
+            <a href="about.html" class="b">About</a>
+            <a href="menu.html" class="c">Menu</a>
+            <a href="contact.html" class="d">Contact</a>
+        </span>
+        <span class="social">
+            <a href="" class="res">RESERVATION</a>
+            <a href="" class="bb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="" class="dd"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="" class="ee"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </span>
+    </div>
+
+    <div class="content">
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required placeholder="Enter your date">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
+
+            <input type="submit" value="Submit" onclick='myFunction()'>
+        </form>
+    </div>
+</body>
+
+</html>
